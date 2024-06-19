@@ -30,3 +30,4 @@ jobs:
       run: |
          ls
          cat README.md
+         ls
