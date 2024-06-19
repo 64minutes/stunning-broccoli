@@ -18,7 +18,6 @@ jobs:
       run: |
         ls
         echo General Kenobi
-        cat README.md
 
     - name: Checkout private repo remotely
       uses: actions/checkout@v2
