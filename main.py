@@ -5,5 +5,5 @@ def say_hello(user="world"):
 def get_name():
   return input("What is your name? \n")
 
-
-say_hello(get_name())
+if __name__ == "__main__":
+  say_hello(get_name())
